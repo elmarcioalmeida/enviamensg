@@ -1,0 +1,131 @@
+html, body {
+  height: 100%;
+}
+body {
+  max-width: 800px;
+  font-family: gotham, arial, helvetica, sans-serif;
+  font-size: 1em;
+  padding: 0;
+  margin: 1px auto; /* Adiciona margem de 1px em todos os lados e centraliza horizontalmente */
+  align-items: center; /* Esta propriedade se aplica a elementos flexíveis, não ao body diretamente */
+  color: white;
+  align-items: center;
+}
+
+body.center-content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+header {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Estilos para o formulário de login */
+.login-container {
+  color: rgb(37, 0, 105);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #c3dcf4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.field input[type="email"],
+.field input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.actions {
+  text-align: center;
+}
+
+.actions input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actions input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.field.error input[type="email"],
+.field.error input[type="password"] {
+  border-color: #dc3545;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 5px;
+}
+.about-box {
+  width: 800px;   
+  margin: 20px auto 20px auto;
+  background-color: #000c66;
+  opacity: 0.7;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 13px;
+  line-height: 2; /* Aumenta o espaçamento entre as linhas */
+  color: #ffffff;
+  font-size: 1.1em;
+  border-bottom: 1px solid #ffffff; /* Adiciona uma linha fina abaixo do texto */
+  padding-bottom: 20px; /* Adiciona espaço abaixo do texto para a borda */
+}

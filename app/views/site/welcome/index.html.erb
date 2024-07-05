@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Faça seu Cadastro</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'styles', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+</head>
+
+<body>
+  <h1>Página de entrada</h1>
+
+  <p>Aqui você pode agendar o envio de mensagens de WhatsApp para seus colaboradores de forma fácil e rápida.</p>
+
+  <%= yield %>
+ 
+</body>
+</html>
