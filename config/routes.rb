@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :admins
   namespace :site do
     root 'welcome#index'
     get 'about', to: 'about#index', as: 'about'

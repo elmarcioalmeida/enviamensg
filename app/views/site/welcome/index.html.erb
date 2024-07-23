@@ -9,10 +9,44 @@
 </head>
 
 <body>
-  <h1>Página de entrada</h1>
-
-  <p>Aqui você pode agendar o envio de mensagens de WhatsApp para seus colaboradores de forma fácil e rápida.</p>
-
+     <title>Minha Empresa - Página Inicial</title>
+    <style>
+   
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            margin-top: 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bem-vindo à Minha Empresa</h1>
+        <p>Somos uma empresa que simplifica o trabalho de oficiais judiciais através da tecnologia para um serviço mais eficiente.</p>
+        <a href="link_para_adquirir_aplicacao" class="cta-button">Adquirir Aplicação</a>
+    </div>
   <%= yield %>
  
 </body>
